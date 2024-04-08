@@ -18,6 +18,8 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+  <AButton v-on:click="() => console.log('click')">提交</AButton>
+  <ADivider />
 </template>
 
 <style scoped>
